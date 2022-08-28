@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+ /* list nav */
+    .active {
+        @apply text-site-blue;
+    }
+    .listmobile {
+        @apply h-60;
+    }
+}
